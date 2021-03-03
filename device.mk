@@ -112,8 +112,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-dot
+    $(LOCAL_PATH)/overlay 
 
 # Overlays -- Override vendor ones
 PRODUCT_PACKAGES += \
@@ -147,6 +146,10 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
+
+# Soong
+PRODUCT_BOARD_PLATFORM := lito
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Telephony
 PRODUCT_PACKAGES += \

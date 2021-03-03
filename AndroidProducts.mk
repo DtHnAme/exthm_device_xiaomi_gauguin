@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_gauguin.mk
+    $(LOCAL_DIR)/exthm_gauguin.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_gauguin-user \
-    dot_gauguin-userdebug \
-    dot_gauguin-eng
+    exthm_gauguin-user \
+    exthm_gauguin-userdebug \
+    exthm_gauguin-eng
