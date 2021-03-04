@@ -1,0 +1,8 @@
+[
+ {
+   "repository": "DtHnAme/proprietary_vendor_xiaomi_gauguin",
+   "target_path": "vendor/xiaomi/gauguin",
+   "branch": "11",
+   "remote": "github"
+ }
+]
